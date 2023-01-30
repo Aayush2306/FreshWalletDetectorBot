@@ -83,6 +83,9 @@ def echo_message(message):
     message.chat.id,
     f"There are {sum} fresh wallets {specialAlpha} Special Alpha and {gigaChad} GigaChad wallets"
   )
+  sum = 0
+  special alpha=0
+  gigaChad = 0
 
 
 bot.polling()
